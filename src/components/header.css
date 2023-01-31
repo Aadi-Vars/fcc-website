@@ -1,0 +1,53 @@
+
+h1{
+   color:white;
+}
+
+.blue_color{
+   color:rgb(52, 157, 238);
+}
+
+header{
+   background: rgb(52, 157, 238);
+   display:flex;
+   justify-content:space-between;
+}
+
+#header_subdiv{
+   padding:20px;
+}
+
+#fcc_label{
+   font-family: 'Albert Sans', sans-serif;
+   color:white;
+   font-size:25px;
+   font-weight:600;
+   margin:50px;
+}
+
+.header_buttons{
+   display:flex;
+   column-gap: 3vw;;
+   list-style: none;
+   margin-right:5vw;
+}
+
+.button{
+   font-family:'Albert Sans', sans-serif;
+   font-size:20px;
+   font-weight:600;
+   color:white;
+}
+
+.button:hover{
+   color:yellow;
+   }
+
+   @media (max-width:500px){
+      #fcc_label{
+         font-size:15px;
+   }
+   .button{
+      font-size:15px;
+   }
+}

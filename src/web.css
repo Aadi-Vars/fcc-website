@@ -1,0 +1,206 @@
+body{
+    background:rgb(6,0,46);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.blue_color{
+    color:rgb(52, 157, 238);
+}
+
+#fcc_image{
+    width:100%;
+
+}
+
+p{
+    font-family: 'Albert Sans', sans-serif;
+    font-size:20px;
+    color:rgb(232, 227, 227);
+    text-shadow: 2px 2px rgb(1,1,1);
+    margin:10px;
+   
+}
+
+#our_program_main_div{
+    margin:50px;
+    margin-top:0px;
+}
+#our_program_div{
+    display:flex;
+    justify-content:space-between;
+}
+
+.our_program_child{
+    width:500px;
+    text-align:center;
+    margin:20px;
+    background:rgb(18, 5, 109);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.program_icon{
+    margin-right:40%;
+    margin-left:40%;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:white;
+}
+
+
+.learn_more_button{
+    padding:7px;
+    border-radius:10px;
+    background: rgb(52, 157, 238);
+    margin:10px;
+
+}
+
+.learn_more_button:hover{
+    background:white;
+}
+
+#value_main_div{
+    margin-top:10px;
+    margin:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#value_img{
+    width:40%;
+}
+#value_subdiv{
+    margin-left:10%;
+    padding-bottom:50px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.value_div{
+    width:40%;
+    height:40%;
+    margin-top:10%;
+    background:rgb(18, 5, 109);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#sponsor_subdiv{
+    margin:50px;
+    margin-top:0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.sponsor_img{
+    width:200px;
+}
+
+.sponsor_subdiv2{
+    text-align:center;
+}
+#sponsor3{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#team{
+    margin:50px;
+    margin-top:0px;
+    text-align:center;
+}
+
+#team_subdiv1{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coordinators_img{
+    text-align:center;
+    margin-top:30px;
+    
+}
+
+spam{
+    color:rgb(52, 157, 238);
+}
+
+#managers{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.blue_border{
+    width:50%;
+    border: 2px solid rgb(52, 157, 238); 
+    border-radius:10px;
+}
+
+.viison_icon{
+    color:white;
+    margin:3px;
+    size:6x;
+}
+
+@media(max-width:500px){
+    #header_button{
+        display:none;
+    }
+    #faq_div{
+        float:none;
+        width:90%;
+       
+    }
+    #GetInTouch_div{
+        float:none;
+        width:90%;
+    }
+#fcc_label{
+    font-size:18px;
+
+}
+
+p{
+    
+    text-align:center;
+    font-weight: 500;
+}
+
+#our_program_div{
+    flex-wrap:wrap;
+}
+
+.our_program_child{
+    width:100%;;
+}
+
+#value_main_div{
+    flex-wrap:wrap;
+}
+#value_subdiv{
+    flex-wrap:wrap;
+}
+#value_img{
+    width:100%;
+}
+
+.value_div{
+    width:100%;
+    height:200px;
+}
+
+#sponsor_subdiv{
+    flex-wrap:wrap;
+}
+
+}
